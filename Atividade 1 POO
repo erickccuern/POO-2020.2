@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class atividade1{
+public static void main(String[] args) {
+int x,y,z,resultado; 
+Scanner entrada = new Scanner(System.in); 
+x = entrada.nextInt();
+y = entrada.nextInt();
+z = entrada.nextInt();
+resultado = x + y + z ;
+System.out.printf(" O Produto e", resultado)
+}
+}
